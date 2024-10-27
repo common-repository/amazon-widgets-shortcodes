@@ -1,0 +1,87 @@
+/**
+ * @author oncletom
+ * @since 1.1 beta
+ * @package tinymce
+ */
+
+.panel_wrapper div.current{
+  height: 300;
+  min-height: 300px;
+}
+html > body .panel_wrapper div.current{
+  height: auto;
+}
+
+form p{
+  clear: both;
+}
+
+/*
+ * Form fields
+ */
+form p label,
+form div label{
+	cursor: pointer;
+  display: block;
+  float: left;
+  padding-right: .5em;
+  text-align: right;
+  width: 30%;
+}
+form p.wide label,
+form div.wide label{
+  float: none;
+  clear: left;
+  text-align: left;
+  width: auto;
+}
+
+form .wide textarea{
+	margin: .5em auto;
+  width: 90%;
+}
+
+form span.help{
+  clear: both;
+  color: #666;
+  display: block;
+  margin-left: 30%;
+  padding-left: .5em;
+}
+
+/*
+ * Colorpicker
+ */
+div.colorpicker{
+  display: inline;
+  position: absolute
+}
+
+input.colorpicker{
+  width: 7em;
+}
+
+/*
+ * Field types
+ */
+input.size{
+  width: 4em;
+}
+
+/*
+ * Copy/paste tab
+ */
+#copypaste_panel .mceActionPanelAlternative input{
+  background: #c6ffcb url('../img/wand.png') no-repeat 5px center;
+  color: #000;
+  cursor: pointer;
+  padding: 5px 5px 5px 25px;
+}
+
+#apply-magic-response{
+  display: none;
+}
+#apply-magic-response.error{
+  display: block;
+  color: #c00;
+}

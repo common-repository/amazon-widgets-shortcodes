@@ -1,0 +1,17 @@
+/**
+ * @author oncletom
+ * @since 1.1 beta
+ * @package tinymce
+ */
+
+.wp_themeSkin .mceSplitButton a.mce_awshortcode-selector span.mceAction{
+  background: url('../img/amazon-partners-icon.gif') no-repeat center center;
+}
+
+.mceContentBody .awshortcode{
+  background: #ffc url('../img/amazon-partners-icon-trans.gif') no-repeat 5px center;
+  border: 1px solid #69c;
+  display: inline;
+  margin: 1em 0;
+  padding: .3em .3em .3em 30px;
+}
